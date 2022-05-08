@@ -1,0 +1,17 @@
+
+@keyframes grow_nav{
+    from{
+        font-size: 0rem;
+    }
+    to {
+        font-size: 1rem;
+    }
+}
+
+
+.nav__logo {
+    position: relative;
+    animation-name: grow_nav;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}

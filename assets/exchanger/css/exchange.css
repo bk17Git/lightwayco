@@ -1,0 +1,242 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+form {
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    padding: 5% 0;
+    margin-top: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+    background-color: rgba(51, 181, 229, 0.5);
+   
+}
+
+#base-currency{
+    width: 80%;
+    padding: 2%;
+    outline: none;
+    color: black;
+    margin-top: 5%;
+    font-size: 16px;
+    border: 2px solid rgba(51, 181, 229);
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+
+#currency{
+    width: 80%;
+    padding: 2%;
+    margin-top: 5%;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid rgba(51, 181, 229);
+    border-radius: 15px;
+}
+
+
+
+#submit-btn{
+    margin-top: 5%;
+    padding: 1.5%;
+    background: none;
+    border-radius: 18px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border: 3px solid white;
+    outline: none;
+    
+}
+
+#submit-btn:hover {
+    color: #0492c2;
+    font-weight: 500;
+    background: white;
+    
+
+}
+
+#submit-btn:visited{
+    color: white;
+    background: none;
+    font-weight: 500;
+}
+
+#reset-btn{
+    margin-top: 5%;
+    padding: 1.5% 4%;
+    background: none;
+    border-radius: 18px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border: 3px solid white;
+    outline: none;
+}
+
+#reset-btn:hover {
+    color: #0492c2;
+    font-weight: 500;
+    background: white;
+}
+
+#reset-btn:visited{
+    color: white;
+    background: none;
+    font-weight: 500;
+}
+
+#res-navbar{
+    background-color: rgba(51, 181, 229);
+    width: 100%;
+    display: none;
+    margin: auto;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+#result{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 3%;
+    width: 40%;
+    font-family: sans-serif;
+    border: 2px solid #0492c2;
+    border-radius: 12px;
+    font-size: 25px;
+    color: #0492c2;
+    font-weight: 800;
+    padding: 0.7%;
+    background-color: white;
+}
+
+#logo-white{
+    width: 60px;
+    margin-bottom: -0.2%;
+    margin-left: 2%;
+
+
+}
+
+#amount{
+    width: 75%;
+    padding: 2%;
+    outline: none;
+    font-size: 16px;
+    border: 2px solid rgba(51, 181, 229);
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+#amount::placeholder{
+    font-size: 16px;
+    color: black;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer{
+    font-size: 18px;
+    background-color: rgba(51,181,229, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 23px;
+    font-weight: 600;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: #0492c2
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+    #result{
+        font-size: 20px;
+        width: 80%;
+        padding: 2%;
+        margin-top: 30%;
+    }
+    #res-navbar{
+        display: block;
+    }
+
+    form{
+        width: 80%;
+        padding: 21px 10px;
+        margin-top: 25%;
+    }
+
+    #base-currency{
+        font-size: 14px;
+        width: 90%;
+        padding: 4%;
+
+    }
+
+    #currency{
+        font-size: 14px;
+        padding: 4%;
+        width: 90%;
+    } 
+
+    #amount{
+        font-size: 14px;
+        width: 70%;
+        padding: 4%;
+        width: 80%;
+    }
+
+    #amount::placeholder{
+        font-size: 14px;
+        
+    }
+
+
+    #submit-btn{
+        padding: 2%;
+        font-size: 20px;
+    }
+
+    #reset-btn{
+        padding: 2% 4%;
+        font-size: 20px;
+    }
+
+    .footer{
+        margin-top: 48%;
+    }
+
+  
+}
