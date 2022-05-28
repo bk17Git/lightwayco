@@ -1,241 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--========== Title Bar Icon==========-->
-        <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-generic">  
-        <!--========== BOX ICONS ==========-->
-        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-		<meta name="description" content="We help businesses and individuals grow at the Speed of Light!"/>
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--========== Title Bar Icon==========-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo.png"
+      type="image/x-generic"
+    />
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="We help businesses and individuals grow at the Speed of Light!"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, React, React Native, website, services, mobile app, android, lightway, lightwayco, digital marketing, social media marketing, graphics, animation, tech, technology, google, lightwayco, Youtube, Online, memes, caption, Content, Content Writing, blog, business, agency, startup "
+    />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
 
-        <title>LightWayCo. - Admiring Technology!</title>
-    </head>
-    <body>
+    <title>LightWayCo. - Admiring Technology!</title>
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
 
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-chevron-up scrolltop__icon'></i>
-        </a>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">LightWayCo.</a>
 
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo">LightWayCo.</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Our Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Our Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#team" class="nav__link">Our Team</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact Us</a>
+            </li>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
-						<li class="nav__item"><a href="#services" class="nav__link">Our Services</a></li>
-						<li class="nav__item"><a href="#products" class="nav__link">Our Products</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
-						
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
 
-                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
-                    </ul>
-                </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">LightWayCo.</h1>
+            <h2 class="home__subtitle">Admiring Technology!</h2>
+          </div>
 
-        <main class="l-main">
-            <!--========== HOME ==========-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                    <div class="home__data">
-                        <h1 class="home__title">LightWayCo.</h1>
-                        <h2 class="home__subtitle">Admiring Technology!</h2>
-                    </div>
-    
-                    <img src="assets/img/logo.png" alt="" class="home__img">
-                </div>
-            </section>
-            
-            
-            	<!--========== ABOUT ==========-->
-                <section class="about section bd-container" id="about">
-                    <div class="about__container  bd-grid">
-                        <div class="about__data">
-                        
-                            <h2 class="section-title about__initial about_title">Grow at the Speed Of Light!</h2>
-                            <p class="about__description">We help businesses and individuals grow at the <b>Speed of Light </b>with our <b> services</b> and <b> products</b></p>
-                            
-                            <a href="#services" class="button">Learn More</a>
-                        </div>
-    
-                        <img src="assets/img/internet-img.jpg" alt="" class="about__img">
-                    </div>
-                </section>
+          <img src="assets/img/logo.png" alt="" class="home__img" />
+        </div>
+      </section>
 
-                	<!--========== Our Products ==========-->
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <h2 class="section-title about__initial about_title">
+              Grow at the Speed Of Light!
+            </h2>
+            <p class="about__description">
+              We help businesses and individuals grow at the
+              <b>Speed of Light </b>with our <b> services</b> and
+              <b> products</b>
+            </p>
 
-                    <section class="menu products section bd-container" id="products">
-                        <span class="section-subtitle">Products</span>
-                        <h2 class="section-title">Our Initiatives</h2>
-        
-                        <div class="menu__container bd-grid">
-                            <div class="menu__content">
-                                <img src="assets/img/inscripts-logo.png" alt="" class="menu__img">
-                                <h3 class="menu__name">Inscripts. Books</h3>
-                                <span class="menu__detail">Read Summaries of Books In Just A Minute!</span>
-                                <span class="menu__preci"></span>
-                                <a href="https://www.inscriptsbooks.com/" class="button menu__button"><i class='bx bx-link-external'></i></a>
-                            </div>
-                            <div class="menu__content">
-                                <img src="assets/img/comunce-logo.png" alt="" class="menu__img">
-                                <h3 class="menu__name">Comunce(Beta)</h3>
-                                <span class="menu__detail">Join the Smartest Community!</span>
-                                <span class="menu__preci"></span>
-                                <a href="https://scrape-it.netlify.app/" class="button menu__button"><i class='bx bx-link-external'></i></a>
-                            </div>
-                            
-                        </div>
-                    </section>
-                
-                <!--========== Our Services ==========-->
-                <section class="services section bd-container" id="services">
-                    <span class="section-subtitle">Our Services</span>
-                    <h2 class="section-title">Here's what we offer</h2>
-    
-                    <div class="services__container  bd-grid">
-                    
-                      
-                       
-    
-                        <div class="services__content">
-                            
-                            <h3 class="services__title">Website Development </h3>
-                            <p class="services__description">We'll help in developing, deploying and managing your Websites to grow your online presence.</p>
-                        </div>
-                        
-                        <div class="services__content">
-                            
-                            <h3 class="services__title">Mobile Apps Development</h3>
-                            <p class="services__description">We'll help you from developing mobile apps to publishing them to the Google Play Store or the Apple App store.</p>
-                        </div>
-    
-                        <div class="services__content">
-                            
-                            <h3 class="services__title">Complete Web-App Management</h3>
-                            <p class="services__description">We'll manage it all together! From developing/publishing your mobile apps and websites to managing them, we will do it all together for you.</p>
-                        </div>
-    
-                    </div>
-                </section> 
+            <a href="#services" class="button">Learn More</a>
+          </div>
 
-            <!--========== Our Speciaities ==========-->
-            <section class="services section bd-container" id="specialities">
-                <span class="section-subtitle">Why you should work with us?</span>
-                <h2 class="section-title">Here's why</h2>
+          <img src="assets/img/internet-img.jpg" alt="" class="about__img" />
+        </div>
+      </section>
 
-                <div class="services__container benifits_container  bd-grid">
-                    <div class="services__content">
-                        
-                        <h3 class="services__title">Fast Web-Apps</h3>
-                        <p class="services__description">We'll develop websites and apps that are perfomance high and very user-friendly to use. </p>
-                    </div>
-					<div class="services__content">
-                        
-                        <h3 class="services__title">Excellent UI UX!</h3>
-                        <p class="services__description">We provide some of the best and most compelling UI UX designs for your websites that nourish your websites and make your visitors happy!</p>
-                    </div>
+      <!--========== Our Products ==========-->
 
-                    <div class="services__content">
-                        
-                        <h3 class="services__title">Graphic Designing!</h3>
-                        <p class="services__description">We'll design graphics to enhance your websites and apps and to grow your social media presence.</p>
-                    </div>
-					
-					<div class="services__content">
-                        
-                        <h3 class="services__title">Web-App Management system!</h3>
-                        <p class="services__description">The Best-In-Class! Our complete website and mobile app management system will help you manage them completely so that you can focus on the most important works to do something big!</p>
-                    </div>
+      <section class="menu products section bd-container" id="products">
+        <span class="section-subtitle">Products</span>
+        <h2 class="section-title">Our Initiatives</h2>
 
-                    
-                </div>
-            </section> 
+        <div class="menu__container bd-grid">
+          <div class="menu__content">
+            <img src="assets/img/inscripts-logo.png" alt="" class="menu__img" />
+            <h3 class="menu__name">Inscripts. Books</h3>
+            <span class="menu__detail"
+              >Read Summaries of Books In Just A Minute!</span
+            >
+            <span class="menu__preci"></span>
+            <a
+              href="https://www.inscriptsbooks.com/"
+              class="button menu__button"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+          <div class="menu__content">
+            <img src="assets/img/comunce-logo.png" alt="" class="menu__img" />
+            <h3 class="menu__name">Comunce(Beta)</h3>
+            <span class="menu__detail">Join the Smartest Community!</span>
+            <span class="menu__preci"></span>
+            <a href="https://scrape-it.netlify.app/" class="button menu__button"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </section>
 
-            
-					
-                        
+      <!--========== Our Services ==========-->
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Our Services</span>
+        <h2 class="section-title">Here's what we offer</h2>
+        <h2 class="section-title section-title-sub">Web-App Development</h2>
+        <div class="services__container bd-grid">
+          <div class="services__content">
+            <h3 class="services__title">Website Development</h3>
+            <p class="services__description">
+              We'll help develop futuristic websites with and out of the box
+              design for your business. Along with pure coded websites, we can
+              build websites using WordPress, Shopify and other custom websites.
+            </p>
+          </div>
 
-            
+          <div class="services__content">
+            <h3 class="services__title">Mobile Apps Development</h3>
+            <p class="services__description">
+              We'll help you to develop exceptional mobile apps to grow your
+              business. We can build apps for Android, iOS and other platforms.
+              We can also build apps for your business using React Native,
+              Flutter and many other technologies.
+            </p>
+          </div>
 
-            <!--========== CONTACT US ==========-->
-            <section class="contact section bd-container" id="contact">
-                <div class="contact__container bd-grid">
-                    <div class="contact__data">
-                        <h2 class="section-title contact__initial">Contact us</h2>
-						<p class="contact__description"><a href="mailto: contact.lightway.co@gmail.com "class="footer__link">contact@lightway.info</a> <br> Dibrugarh, Assam, India</p>
-			
-                    </div>
+          <div class="services__content">
+            <h3 class="services__title">Complete Web-App Management</h3>
+            <p class="services__description">
+              We'll manage it all together! From developing to publishing your
+              mobile apps and websites to managing them, we will do it all
+              together for you.
+            </p>
+          </div>
+        </div>
 
-                    <div class="contact__button">
-                        <a href="https://p09lxbisb2a.typeform.com/to/oIJlOSwG" target="_blank" class="button">Contact us now</a>
-                    </div> 
-					
-					
-                </div>
-            </section>
-        </main>
+        <h2 class="section-title section-title-sub section-title-sub-2">
+          Digital Marketing & Services
+        </h2>
+        <div class="services__container bd-grid">
+          <div class="services__content">
+            <h3 class="services__title">Social Media Marketing</h3>
+            <p class="services__description">
+              We'll help in developing brand awareness and in strengthening
+              engagement strategies to increase your brand's visibility in the
+              social world!
+            </p>
+          </div>
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer section bd-container">
-            <div class="footer__container bd-grid">
-                <div class="footer__content">
-                    <a href="#" class="footer__logo">LightWayCo.</a>
-                    <span class="footer__description"><b>Admiring Technology!</b></span>
-                    <div>
-                        <a href="https://twitter.com/it_is_lightway"  target = "_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(4, 146, 194, 1);transform: msFilter"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></a>
-						<a href="https://instagram.com/it.is.lightway"  target = "_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(4, 146, 194, 1);transform: msFilter"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg></a>
-						<a href="mailto: contact.lightway.co@gmail.com " class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(4, 146, 194, 1);transform: msFilter"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path></svg></a>
-						<a href="https://www.linkedin.com/company/lightwayco" target = "_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(4, 146, 194, 1);transform: msFilter"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg></a>
-                    </div>
-                </div>
-				
-				<div class="footer__content">
-                    <h3 class="footer__title">Founder</h3>
-                    <ul>
-                        <p >Bastav Kakoty</p>
-                        <p>Web Dev & UI UX </p>
-						<p>Assam, India</p>
-						
-						<a href="https://twitter.com/bastavkakoty"  target = "_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(4, 146, 194, 1);transform: msFilter"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></a>
-						<a href="https://instagram.com/bastav.kakoty"  target = "_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(4, 146, 194, 1);transform: msFilter"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg></a>
-						<a href="mailto: bastavkakoty.bk17@gmail.com" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(4, 146, 194, 1);transform: msFilter"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path></svg></a>
-						<a href="https://www.linkedin.com/in/bastav-kakoty/" target = "_blank" class="footer__social"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(4, 146, 194, 1);transform: msFilter"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg></a>
-                        
-                    </ul>
-                </div>
+          <div class="services__content">
+            <h3 class="services__title">Youtube Content Management</h3>
+            <p class="services__description">
+              We'll help you build your presence in the second largest search
+              engine! From creating content to thumbnail and caption, we'll do
+              it all for you!
+            </p>
+          </div>
 
-                <div class="footer__content">
-                    <h3 class="footer__title">Contact  </h3>
-                    <ul>
-						
-						<li><a href="mailto: contact.lightway.co@gmail.com "class="footer__link">contact@lightway.info</a></li>
-						<li>Dibrugarh, Assam, India</li>
-			
-                        <!-- <li><a href="#" class="footer__link">Terms of services</a></li>-->
-                    </ul>
-                </div>
-            </div>
+          <div class="services__content">
+            <h3 class="services__title">Content Creation</h3>
+            <p class="services__description">
+              We'll curate creative content for your blog or business purpose
+              and also contents like memes, short videos etc that will engage
+              your audience and will build up your brand value.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            <p class="footer__copy">&#169; 2022 | LightWayCo. | All rights reserved</p>
-        </footer>
+      <!--========== Our Speciaities ==========-->
+      <section class="services section bd-container" id="specialities">
+        <span class="section-subtitle">Why you should work with us?</span>
+        <h2 class="section-title">Here's why</h2>
 
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <div class="services__container benifits_container bd-grid">
+          <div class="services__content">
+            <h3 class="services__title">Fast Web-Apps</h3>
+            <p class="services__description">
+              We'll develop websites and apps that are perfomance high and very
+              user-friendly to use.
+            </p>
+          </div>
+          <div class="services__content">
+            <h3 class="services__title">Excellent UI UX!</h3>
+            <p class="services__description">
+              We provide some of the best and most compelling UI UX designs for
+              your websites that nourish your websites and make your visitors
+              happy!
+            </p>
+          </div>
 
-        <!--========== MAIN JS ==========-->
-        <script src="assets/js/main.js"></script>
-		
-    </body>
+          <div class="services__content">
+            <h3 class="services__title">Graphic Designing!</h3>
+            <p class="services__description">
+              We'll design graphics to enhance your websites and apps and to
+              grow your social media presence.
+            </p>
+          </div>
+
+          <div class="services__content">
+            <h3 class="services__title">We understand each platform!</h3>
+            <p class="services__description">
+              One must understand the platform itself to build their presence or
+              market on it. We have a research team to help you understand the
+              platform and its features and the choice will be yours!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========== Our Team ==========-->
+      <section class="services section bd-container" id="team">
+        <!-- <span class="section-subtitle">Why you should work with us?</span> -->
+        <h2 class="section-title">Our Team</h2>
+
+        <div class="services__container benifits_container bd-grid">
+          <div class="services__content">
+            <h3 class="services__title">Experienced and Certified Team!</h3>
+            <p class="services__description">
+              Our whole team is a team with years of experience. You will have
+              separate experts for each task like managing your website,
+              developing your mobile app, designing graphics, digital marketing
+              and much more! We keep upskilling ourselves here at LightWayCo. so
+              that we can keep ourselves up-to-date to provide you with the best
+              services and solutions!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========== CONTACT US ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact__container bd-grid">
+          <div class="contact__data">
+            <h2 class="section-title contact__initial">Contact us</h2>
+            <p class="contact__description">
+              <a
+                href="mailto: contact.lightway.co@gmail.com "
+                class="footer__link"
+                >contact@lightway.info</a
+              >
+              <br />
+              Dibrugarh, Assam, India
+            </p>
+          </div>
+
+          <div class="contact__button">
+            <a
+              href="https://p09lxbisb2a.typeform.com/to/oIJlOSwG"
+              target="_blank"
+              class="button"
+              >Contact us now</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">LightWayCo.</a>
+          <span class="footer__description"><b>Admiring Technology!</b></span>
+          <div>
+            <a
+              href="https://twitter.com/it_is_lightway"
+              target="_blank"
+              class="footer__social"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                style="fill: rgba(4, 146, 194, 1); transform: msFilter"
+              >
+                <path
+                  d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
+                ></path></svg
+            ></a>
+            <a
+              href="https://instagram.com/it.is.lightway"
+              target="_blank"
+              class="footer__social"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                style="fill: rgba(4, 146, 194, 1); transform: msFilter"
+              >
+                <path
+                  d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"
+                ></path>
+                <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                <path
+                  d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"
+                ></path></svg
+            ></a>
+            <a
+              href="mailto: contact.lightway.co@gmail.com "
+              class="footer__social"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                style="fill: rgba(4, 146, 194, 1); transform: msFilter"
+              >
+                <path
+                  d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"
+                ></path></svg
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/lightwayco"
+              target="_blank"
+              class="footer__social"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                style="fill: rgba(4, 146, 194, 1); transform: msFilter"
+              >
+                <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                <path
+                  d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                ></path></svg
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Founder</h3>
+          <ul>
+            <p>Bastav Kakoty</p>
+            <p>Web Dev & UI UX</p>
+            <p>Assam, India</p>
+
+            <a
+              href="https://twitter.com/bastavkakoty"
+              target="_blank"
+              class="footer__social"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                style="fill: rgba(4, 146, 194, 1); transform: msFilter"
+              >
+                <path
+                  d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
+                ></path></svg
+            ></a>
+            <a
+              href="https://instagram.com/bastav.kakoty"
+              target="_blank"
+              class="footer__social"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                style="fill: rgba(4, 146, 194, 1); transform: msFilter"
+              >
+                <path
+                  d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"
+                ></path>
+                <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                <path
+                  d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"
+                ></path></svg
+            ></a>
+            <a href="mailto: bastavkakoty.bk17@gmail.com" class="footer__social"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                style="fill: rgba(4, 146, 194, 1); transform: msFilter"
+              >
+                <path
+                  d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"
+                ></path></svg
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/bastav-kakoty/"
+              target="_blank"
+              class="footer__social"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                style="fill: rgba(4, 146, 194, 1); transform: msFilter"
+              >
+                <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                <path
+                  d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                ></path></svg
+            ></a>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Contact</h3>
+          <ul>
+            <li>
+              <a
+                href="mailto: contact.lightway.co@gmail.com "
+                class="footer__link"
+                >contact@lightway.info</a
+              >
+            </li>
+            <li>Dibrugarh, Assam, India</li>
+
+            <!-- <li><a href="#" class="footer__link">Terms of services</a></li>-->
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">
+        &#169; 2022 | LightWayCo. | All rights reserved
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
