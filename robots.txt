@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /* .png$
+Crawl-delay: 15
+Sitemap: https://www.lightway.info/sitemap.xml

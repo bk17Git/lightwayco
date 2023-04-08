@@ -80,13 +80,14 @@ body.dark-theme {
 
 /*========== Button Dark/Light ==========*/
 .change-theme {
-  position: absolute;
-  /* display: none; */
-  right: 1rem;
-  top: 1.8rem;
   color: var(--text-color);
   font-size: 1rem;
+  margin-left: var(--mb-1);
   cursor: pointer;
+}
+
+.change-theme-home{
+    font-size: 1.4rem;
 }
 
 body {
@@ -132,6 +133,7 @@ img {
 
 .section-title {
   font-size: 30px;
+  font-family: "Comfortaa", cursive;
   color: var(--title-color);
   margin-bottom: var(--mb-3);
 }
@@ -287,6 +289,7 @@ img {
   font-size: 43px;
   color: var(--first-color);
   margin-bottom: var(--mb-1);
+  font-family: "Comfortaa", cursive;
 }
 
 .home__subtitle {
@@ -294,6 +297,10 @@ img {
   font-weight: 500;
   color: var(--title-color);
   margin-bottom: var(--mb-4);
+}
+
+.home_button {
+  font-size: 14px;
 }
 
 .home__img {
@@ -306,6 +313,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
+  font-size: larger;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   transition: 0.3s;
@@ -317,7 +325,7 @@ img {
 
 /*========== ABOUT ==========*/
 .about__data {
-  text-align: center;
+  margin: auto;
 }
 
 .about_us_txt {
@@ -345,6 +353,10 @@ img {
   justify-self: center;
 }
 
+.about-title {
+  font-family: "Comfortaa", cursive;
+}
+
 /*========== SERVICES ==========*/
 .services__container {
   row-gap: 2.5rem;
@@ -353,8 +365,8 @@ img {
 
 .services__content {
   text-align: center;
-  box-shadow: 0 10px 15px -3px rgb(4 146 194/ 0.4),
-    8px 8px 4px 4px rgb(4 146 194 / 0.3);
+  box-shadow: 0 10px 15px -15px rgb(4 146 194 / 40%),
+    8px 8px 3px 2px rgb(4 146 194 / 30%);
   padding: 30px 8px;
   border-radius: 15px;
 }
@@ -366,6 +378,8 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+
+
 .services__title {
   font-size: var(--h3-font-size);
   color: var(--title-color);
@@ -374,6 +388,10 @@ img {
 
 .services__description {
   padding: 0 1.5rem;
+}
+
+.founder__name {
+  font-family: "Comfortaa", cursive;
 }
 
 /*========== MENU ==========*/
@@ -388,8 +406,8 @@ img {
   flex-direction: column;
   background-color: var(--container-color);
   border-radius: 0.5rem;
-  box-shadow: 0 10px 15px -3px rgb(4 146 194/ 0.4),
-    10px 10px 4px 4px rgb(4 146 194 / 0.3);
+  box-shadow: 0 10px 15px -15px rgb(4 146 194 / 40%),
+    8px 8px 3px 2px rgb(4 146 194 / 30%);
   padding: 0.75rem;
 }
 
@@ -517,7 +535,6 @@ img {
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px) {
   .home__container,
-  .about__container,
   .app__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -527,9 +544,12 @@ img {
   .about__initial,
   .app__data,
   .app__initial,
-  .contact__container,
-  .contact__initial {
+  .contact__container {
     text-align: initial;
+  }
+
+  .contact__initial {
+    text-align: center;
   }
 
   .about__img,
@@ -539,7 +559,7 @@ img {
   }
 
   .contact__container {
-    grid-template-columns: 1.75fr 1fr;
+    margin: auto;
     align-items: center;
   }
   .contact__button {
@@ -553,7 +573,7 @@ img {
   }
 
   .benifits_container {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
 
   .team_founder {
@@ -561,8 +581,17 @@ img {
     justify-content: center;
   }
 
+  .service_page_container {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+
   .section-title {
     font-size: 50px;
+    font-family: "Comfortaa", cursive;
+  }
+
+  .about-title {
+    font-family: 1000px;
   }
 
   .section-title-sub {
@@ -573,12 +602,17 @@ img {
     margin-top: 80px;
   }
 
+  .section-title-big{
+    text-decoration: underline;
+  }
+
   .footer__copy {
     font-size: 15px;
   }
 
   .home__title {
     font-size: 55px;
+    font-family: "Comfortaa", cursive;
   }
 
   .about_title {
@@ -586,7 +620,7 @@ img {
   }
 
   .home__subtitle {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .section {
@@ -623,8 +657,8 @@ img {
   }
 
   .menu__container {
-    grid-template-columns: repeat(2, 310px);
-    column-gap: 4rem;
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 2.5rem;
   }
   .menu__content {
     padding: 1.5rem;
@@ -648,7 +682,6 @@ img {
     width: 205px;
   }
 
-  .about__container,
   .app__container {
     column-gap: 7rem;
   }
