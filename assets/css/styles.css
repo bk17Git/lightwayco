@@ -1,6 +1,10 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -289,7 +293,7 @@ img {
   font-size: 43px;
   color: var(--first-color);
   margin-bottom: var(--mb-1);
-  font-family: "Comfortaa", cursive;
+  font-family: "Comfortaa", sans-serif;
 }
 
 .home__subtitle {
@@ -612,7 +616,7 @@ img {
 
   .home__title {
     font-size: 55px;
-    font-family: "Comfortaa", cursive;
+    font-family: "Comfortaa", sans-serif;
   }
 
   .about_title {
@@ -657,7 +661,7 @@ img {
   }
 
   .menu__container {
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(2, 500px);
     column-gap: 2.5rem;
   }
   .menu__content {
