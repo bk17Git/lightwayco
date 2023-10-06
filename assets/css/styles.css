@@ -136,7 +136,7 @@ img {
 }
 
 .section-title {
-  font-size: 30px;
+  font-size: 19px;
   font-family: "Comfortaa", cursive;
   color: var(--title-color);
   margin-bottom: var(--mb-3);
@@ -358,7 +358,11 @@ img {
 }
 
 .about-title {
-  font-family: "Comfortaa", cursive;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.about-span {
+  text-decoration: underline;
 }
 
 /*========== SERVICES ==========*/
@@ -371,8 +375,10 @@ img {
   text-align: center;
   box-shadow: 0 10px 15px -15px rgb(4 146 194 / 40%),
     8px 8px 3px 2px rgb(4 146 194 / 30%);
-  padding: 30px 8px;
+  padding: 30px 1px;
   border-radius: 15px;
+  margin: 5px 8px;
+
 }
 
 .services__img {
@@ -412,7 +418,9 @@ img {
   border-radius: 0.5rem;
   box-shadow: 0 10px 15px -15px rgb(4 146 194 / 40%),
     8px 8px 3px 2px rgb(4 146 194 / 30%);
-  padding: 0.75rem;
+  padding: 20px 20px;
+   margin: 0px 10px;
+
 }
 
 .menu__img {
@@ -428,7 +436,8 @@ img {
 }
 
 .menu__name {
-  font-size: var(--normal-font-size);
+  font-size: var(--h3-font-size);
+  text-align: center;
 }
 
 .menu__detail,
@@ -479,6 +488,12 @@ img {
 .contact__container {
   text-align: center;
 }
+
+.service_btn_container{
+  text-align: center;
+  margin-top: 50px;
+}
+
 
 .contact__description {
   margin-bottom: var(--mb-3);
@@ -566,6 +581,8 @@ img {
     margin: auto;
     align-items: center;
   }
+
+
   .contact__button {
     justify-self: center;
   }
@@ -590,7 +607,7 @@ img {
   }
 
   .section-title {
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Comfortaa", cursive;
   }
 
@@ -661,7 +678,7 @@ img {
   }
 
   .menu__container {
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(1, 1);
     column-gap: 2.5rem;
   }
   .menu__content {
